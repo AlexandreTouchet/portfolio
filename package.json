@@ -1,6 +1,6 @@
 {
-  "homePage": "https://alexandretouchet.github.io/portfolio/",
-  "name": "portfolio_v4",
+  "homepage": "https://alexandretouchet.github.io/portfolio",
+  "name": "portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
