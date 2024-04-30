@@ -1,0 +1,86 @@
+@import '~bootstrap/scss/bootstrap';
+@import './Navbar.scss';
+
+
+$bg: #474747;
+$w: white;
+
+* {
+  padding: 0;
+  margin: 0;
+  scrollbar-color: #0023a1 transparent;
+}
+
+body {
+  background-color: $bg;
+  color: $w;
+}
+
+.letter-blue {
+  color: #325FFF;
+}
+
+.presentation {
+  margin-top: 10%;
+  margin-left: 15%;
+  margin-right: 15%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pp {
+  width: 300px; /* Adjust width as needed */
+  height: 300px; /* Adjust height as needed */
+  overflow: hidden; /* Hide overflowing parts of the image */
+  border-radius: 50%; /* Make the container a circle */
+
+  img {
+    width: 100%; /* Stretch image to fill container */
+    height: 100%; /* Stretch image to fill container */
+    object-fit: cover; /* Crop image to fit the container */
+  }
+}
+
+.pp_r {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  margin-top: 1%;
+  margin-right: 20%;
+  margin-left: 75%;
+}
+
+.space-100 {
+  display: block;
+  height: 100px;
+}
+
+@media (max-width: 1300px) {
+  .pp_r {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin-right: 22%;
+    margin-left: 70%;
+  }
+}
+
+@media (max-width: 992px) {
+  .presentation {
+    margin-top: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .pp_r {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin-right: 40%;
+    margin-left: 40%;
+  }
+}

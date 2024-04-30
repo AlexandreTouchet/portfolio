@@ -1,0 +1,39 @@
+$bg: #474747;
+$w: white;
+
+.bg-body-tertiary {
+    --bs-bg-opacity: 1;
+    background-color: $bg !important;
+    box-shadow: 0px 3px #4b4b4b;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    z-index: 999;
+}
+
+.nav-link, .navbar-brand {
+    color: $w !important;
+}
+
+.nav-link {
+    margin-right: 15%;
+}
+
+.nav-link:hover {
+    color: #325FFF !important;
+}
+
+.me-auto {
+    margin-right: 0 !important;
+}
+
+@media (min-width: 992px){
+    .navbar-expand-lg .navbar-collapse {
+    display: flex !important;
+    flex-basis: auto;
+    justify-content: center;
+    }
+}

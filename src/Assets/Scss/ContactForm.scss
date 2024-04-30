@@ -1,0 +1,17 @@
+.contactForm {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+
+.contactFormLabel {
+    margin: 1%;
+    display: flex;
+    align-items: center;
+}
+
+.contactFormLabel, input, button {
+    border-radius: 20px;
+}
