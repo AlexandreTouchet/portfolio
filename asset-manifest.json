@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d73af01a.css",
+    "main.js": "/static/js/main.d1b7e2d6.js",
+    "static/media/pp.jpg": "/static/media/pp.790d9189c31fc091e5ea.jpg",
+    "static/media/opera_cp2ARDMlbH.png": "/static/media/opera_cp2ARDMlbH.0d6104c643a862801732.png",
+    "static/media/opera_HEtsDZUk6Y.png": "/static/media/opera_HEtsDZUk6Y.9c92f4ea43b47a8261de.png",
+    "index.html": "/index.html",
+    "main.d73af01a.css.map": "/static/css/main.d73af01a.css.map",
+    "main.d1b7e2d6.js.map": "/static/js/main.d1b7e2d6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d73af01a.css",
+    "static/js/main.d1b7e2d6.js"
+  ]
+}
